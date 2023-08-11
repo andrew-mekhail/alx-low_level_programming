@@ -1,0 +1,1 @@
+0- this program is to find any number positive or negative or zero

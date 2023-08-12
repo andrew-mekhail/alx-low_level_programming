@@ -3,15 +3,13 @@
 
 int main(void)
 {
-  char alphabet [26] = "abcdefghijklmnopqrstuvwxyz";
-  int i=0 ;
-  while (alphabet[i] != '\n')
+  char alphabet[26] = "abcdefghijklmnopqrstuvwxyz" ;
+  int i ;
+  for ( i=0; alphabet[i] != '\n'; i++)
     {
       putchar (alphabet[i]);
-      i++;
+
     }
   putchar('\n');
-
-
   return (0);
 }

@@ -6,13 +6,12 @@
 int main(void)
 {
   char alphabet[6] = "abcdef" ;
-  int i ;
+  int i , j ;
   for ( i=0; i<10; i++)
     {
       putchar (i+'0');
 
     }
-  int j ;
   for (j=0 ; j<6 ; j++)
   {
   

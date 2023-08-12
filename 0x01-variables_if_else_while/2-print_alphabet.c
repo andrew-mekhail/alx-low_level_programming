@@ -3,9 +3,9 @@
 
 int main(void)
 {
-  char aplphabet [] = "abcdefghijklmnopqrstuvwxyz";
+  char alphabet [] = "abcdefghijklmnopqrstuvwxyz";
   int i=0 ;
-  while (char[i] != '\n')
+  while (alphabet[i] != '\n')
     {
       putcahr (alphabet[i]);
       i++;

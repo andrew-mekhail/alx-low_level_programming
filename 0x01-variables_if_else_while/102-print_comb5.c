@@ -9,15 +9,27 @@ int main(void)
       for ( j=0; j<10 ; j++)
       {
           for ( m=0+i ; m < 10 ; m++ )
-          {
-            for (k=0+j; k < 9 ; k++)
+          { 
+	      if ( i ==0 && j==0 && m==0)
+             	{
+                 k=1;
+             	}
+             else if (j==0)
+             	{
+                 k=0;
+             	}
+             else
+             	{
+                 k=1;
+             	} 
+            for (k=k+j; k < 10 ; k++)
             {
                 putchar (i + '0' );
                 putchar ( j + '0');
                 putchar(' ');
                 putchar (m + '0');
-                putchar (k +1+ '0');
-                  if ((i!=9) || ( j!= 8) || (k!=8) || ( m!=9 ))
+                putchar (k + '0');
+                  if ((i!=9) || ( j!= 8) || (k!=9) || ( m!=9 ))
                       {
                         putchar (',');
                         putchar (' ');
@@ -27,7 +39,6 @@ int main(void)
         }
 
         }
-
     }
     putchar ('\n');
   return (0);

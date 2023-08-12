@@ -1,6 +1,6 @@
 /*here are the header */
 #include <stdio.h>
-
+#include <stdlib.h> 
 int main(void)
 {
   char alphabet[26] = "abcdefghijklmnopqrstuvwxyz" ;
@@ -10,6 +10,6 @@ int main(void)
       putchar (alphabet[i]);
 
     }
-  putchar('\n');
+
   return (0);
 }

@@ -12,13 +12,8 @@ int main(void)
 	    if ( alphabet[i] == 'e' || alphabet [i] == 'q')
 	    {
 	    	i++;
-		putchar ( alphabet[i]);
 	    }
-	    else
-	    {
-	    
-	       putchar (alphabet[i]);
-	    }
+	putchar ( alphabet[i]);
     }
   putchar('\n');
 

@@ -21,15 +21,7 @@ putchar(output2[i]);
 }
 for (i = 0 ; i < 10 ; i++)
 {
-if (output3[i] == '-')
-{
 putchar(output3[i]);
-}
-else
-{
-putchar(output3[i] + '0');
-}
-
 }
 putchar('\n');
 return (1);

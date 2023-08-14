@@ -14,7 +14,7 @@ int i;
 
 for (i = 0; i < 10; i++)
 {
-Putchar (i + '0');
+putchar (i + '0');
 }
 int j;
 

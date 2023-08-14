@@ -7,7 +7,19 @@
  **/
 int main(void)
 {
-
-write(STDOUT_FILENO, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+int i;
+char output[57] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+for (i = 0 ; i <= 57 ; i++)
+{
+if (output[i] == ',')
+{
+putchar(' ');
+i++;
+}
+else
+{
+putchar(output[i]);
+}
+}
 return (1);
 }

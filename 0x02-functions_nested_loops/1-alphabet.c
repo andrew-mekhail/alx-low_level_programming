@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - Entry point
- * Description: 'printing alphabet function'
- * Return: Always 0 (Success)
- **/
+ * print_alphabet - writes all the alphabet in stdout
+ * void : takes no argument
+ * Return: nothing
+ */
 void  print_alphabet(void)
 {
-int i;	
+int i;
 char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 for (i = 0 ; i < 26 ; i++)
 {

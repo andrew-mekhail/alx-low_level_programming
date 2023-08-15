@@ -8,7 +8,7 @@
 int _isalpha(int c)
 {
 int i = c;
-if ((i > 94) && (i < 91))
+if ((i > 64) && (i < 91))
 {
 return (1);
 }

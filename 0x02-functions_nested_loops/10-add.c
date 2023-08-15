@@ -2,8 +2,9 @@
 #include "main.h"
 /**
  * add - adding two numbers
- * @c : takes two intger argument
- * Return: sum of integers
+ * @a  : first number to sum
+ * @b  : second number to sum
+ * Return: sum of two integers
  **/
 int add(int a, int b)
 {

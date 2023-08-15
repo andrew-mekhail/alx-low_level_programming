@@ -7,10 +7,18 @@
  **/
 void jack_bauer(void)
 {
-int i, j, k, m;
+int i, j, k, m, n;
 for (i = 0 ; i < 3 ; i++)
 {
-for (j = 0; j < 4 ; j++)
+if ( i < 2)
+{
+n = 10;
+}
+else 
+{
+n = 4;
+}
+for (j = 0; j < n ; j++)
 {
 for (k = 0; k < 6; k++)
 {

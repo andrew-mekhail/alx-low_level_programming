@@ -8,7 +8,7 @@
 int print_last_digit(int c)
 {
 int i = c;
-if ( i < 0)
+if (i < 0)
 {
 i = i * (-1);
 }

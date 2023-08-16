@@ -16,7 +16,6 @@ k = i * j;
 if ((k == 0) && (j == 9))
 {
 _putchar(k + '0');
-_putchar('$');
 _putchar('\n');
 }
 else if ((k == 0) && (j != 9))
@@ -28,7 +27,6 @@ _putchar(' ');
 else if ((k != 0) && (k < 10) && (j ==  9))
 {
 _putchar(k + '0');
-_putchar('$');
 _putchar('\n');
 }
 else if ((k != 0) && (k < 10) && (j != 9))
@@ -43,7 +41,6 @@ m = k / 10;
 n = k % 10;
 _putchar(m + '0');
 _putchar(n + '0');
-_putchar('$');
 _putchar('\n');
 }
 else if ((k != 0) && k > 9 && j != 9)

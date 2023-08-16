@@ -22,7 +22,6 @@ printf("%lu, ", fibonacci_numbers[j]);
 }
 
 printf("4807526976, 7778742049, 12586269025, 20365011074\n");
-}
-}
+
 return (0);
 }

@@ -12,7 +12,7 @@ unsigned long int fibonacci_numbers[44];
 fibonacci_numbers[0] = 1;
 fibonacci_numbers[1] = 2;
 printf("%lu, ", fibonacci_numbers[0]);
-for (i = 2; i < 44; i++)
+for (i = 2; i < 45; i++)
 {
 fibonacci_numbers[i] = fibonacci_numbers[i - 1] + fibonacci_numbers[i - 2];
 }

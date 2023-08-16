@@ -8,7 +8,7 @@
 int main(void)
 {
 int i, j;
-int fibonacci_numbers[49];
+long int fibonacci_numbers[49];
 fibonacci_numbers[0] = 1;
 fibonacci_numbers[1] = 2;
 for (i = 2; i < 50; i++)
@@ -19,9 +19,9 @@ for (j = 0 ; j < 50 ; j++)
 {
 if (j == 49)
 {
-printf("%d\n", fibonacci_numbers[j]);
+printf("%ld\n", fibonacci_numbers[j]);
 }
-printf("%d, ", fibonacci_numbers[j]);
+printf("%ld, ", fibonacci_numbers[j]);
 }
 return (0);
 }

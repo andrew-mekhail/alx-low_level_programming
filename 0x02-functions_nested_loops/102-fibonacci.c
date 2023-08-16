@@ -9,7 +9,7 @@ int main(void)
 {
 int i, j;
 unsigned long int fibonacci_numbers[44];
-unsigned long long int larg_numbers[4];
+unsigned long int larg_numbers[4];
 fibonacci_numbers[0] = 1;
 fibonacci_numbers[1] = 2;
 for (i = 2; i < 50; i++)
@@ -30,11 +30,11 @@ for (j = 0 ; j < 5; j++)
 {
 if (j == 4)
 {
-printf("%llu\n", larg_numbers[j]);
+printf("%lu\n", larg_numbers[j]);
 }
 else
 {
-printf("%llu, ", larg_numbers[j]);
+printf("%lu, ", larg_numbers[j]);
 }
 }
 return (0);

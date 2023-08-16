@@ -23,5 +23,6 @@ else if ((i % 3 != 0) && (i % 5 == 0))
 sum = sum + i;
 }
 }
+printf("% d ", sum);
 return (0);
 }

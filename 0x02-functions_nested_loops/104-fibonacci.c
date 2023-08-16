@@ -18,7 +18,14 @@ for (i = 0; i < 97; i++)
 number3 = number2 + number1;
 number1 = number2;
 number2 = number3;
+if (i == 96)
+{
+printf("%lu\n", number3);
+}
+else
+{
 printf("%lu, ", number3);
+}
 }
 
 return (0);

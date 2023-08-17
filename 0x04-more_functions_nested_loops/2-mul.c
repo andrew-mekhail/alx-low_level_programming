@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * mul - multiply two numbers
- * @a  : first number to sum
- * @b  : second number to sum
+ * @a  : first number to multiply
+ * @b  : second number to multiply
  * Return: multiplication of two integers
  **/
 int mul(int a, int b)

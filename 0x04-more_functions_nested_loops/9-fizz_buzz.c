@@ -20,23 +20,20 @@ else if (i % 3 == 0)
 printf("Fizz ");
 continue;
 }
-else if (i % 5 == 0)
-{
-if ( i == 100)
+else if (i % 5 == 0 && i == 100)
 {
 printf("Buzz\n");
+continue;
 }
-else
+else if (i % 5 == 0 && i != 100)
 {
 printf("Buzz ");
 continue;
-}
 }
 else
 {
 printf("%d ", i);
 }
 }
-putchar('\n');
 return (0);
 }

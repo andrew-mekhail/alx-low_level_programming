@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
 /**
  * main - entry point
  * void : takes no argument
@@ -14,17 +13,17 @@ for (i = 1 ; i < 101 ; i++)
 if ((i % 3 == 0) && (i % 5 == 0))
 {
 printf("FizzBuzz ");
-i++;
+continue;
 }
 else if (i % 3 == 0)
 {
 printf("Fizz ");
-i++;
+continue;
 }
 else if (i % 5 == 0)
 {
 printf("Buzz ");
-i++;
+continue;
 }
 else
 {

@@ -1,4 +1,4 @@
-include <stdlib.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  * more_numbers - writes all numbers from 0 to 14 for 10 times
@@ -9,7 +9,7 @@ void more_numbers(void)
 {
 int i, j, k, m;
 for (j = 0 ' j < 10 ; j++)
-{	
+{
 for (i = 0 ; i < 15 ; i++)
 {
 if (i > 9)

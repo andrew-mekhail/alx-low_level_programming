@@ -15,11 +15,13 @@ for (j = 0; j < 10; j++)
 k = i * j;
 if ((k == 0) && (j == 9))
 {
+_putchar(' ');
 _putchar(k + '0');
 _putchar('\n');
 }
-else if ((k == 0) && (j != 9))
+else if ((k == 0) && ((j != 9) || j != 0))
 {
+_putchar(' ');
 _putchar(k + '0');
 _putchar(',');
 _putchar(' ');
@@ -31,7 +33,7 @@ _putchar('\n');
 }
 else if ((k != 0) && (k < 10) && (j != 9))
 {
-_putchar(' ');	
+_putchar(' ');
 _putchar(k + '0');
 _putchar(',');
 _putchar(' ');

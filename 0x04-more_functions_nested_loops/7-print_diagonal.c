@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * print_line - writes _ as times as the input for the function
+ * print_diagonal - writes \ as times as the input for the function
  * @n : takes one ineger argument
  * Return: nothing
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 int i;
 if (n <= 0)
@@ -16,8 +16,9 @@ else
 {
 for (i = 0 ; i < n ; i++)
 {
-_putchar('_');
+_putchar(' ');
 }
+_putchar('\');
 _putchar('\n');
 }
 }

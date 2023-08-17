@@ -5,7 +5,7 @@
  * void : takes no argument
  * Return: nothing
  **/
-void times_table(int a)
+void print_times_table(int a)
 {
 int i, j, k, m, n, p, q;
 if ( a > 0 && a < 16)

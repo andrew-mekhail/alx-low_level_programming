@@ -17,7 +17,7 @@ for (j = 0; j < a + 1; j++)
 k = i * j;
 if(a == 0)
 {
-_putchat('0');
+_putchar('0');
 _putchar('\n');
 }
 else if ((k == 0) && (j == a))

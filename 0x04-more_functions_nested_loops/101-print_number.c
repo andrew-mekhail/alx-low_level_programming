@@ -11,14 +11,14 @@ int i, j, k, m, l, p;
 k = n;
 m = 0;
 p = 1;
+if (k == 0)
+{
+_putchar(0 + '0');
+}
 while (k != 0)
 {
 m++;
 k = k / 10;
-}
-if (k == 0)
-{
-_putchar(0 + '0');
 }
 for (i = 0; i < m ; i++)
 {

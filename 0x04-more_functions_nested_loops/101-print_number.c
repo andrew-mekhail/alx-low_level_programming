@@ -36,5 +36,4 @@ j = n / p;
 l = j % 10;
 _putchar(l + '0');
 }
-_putchar('\n');
 }

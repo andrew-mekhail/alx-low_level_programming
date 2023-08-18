@@ -16,6 +16,10 @@ while (k != 0)
 m++;
 k = k / 10;
 }
+if (k == 0)
+{
+_putchar(0 + '0');
+}
 for (i = 0; i < m ; i++)
 {
 p = p * 10;

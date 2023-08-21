@@ -5,7 +5,7 @@
  * @s : poiner to string
  * Return: nothing
  */
-int print_rev(char *s)
+void print_rev(char *s)
 {
 int i, j;
 i = _strlen(s);

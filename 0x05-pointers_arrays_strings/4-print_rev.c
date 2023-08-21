@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _strlen - finding a length of string
+ * print_rev - printing string in reverse way
  * @s : poiner to string
  * Return: nothing
  */
@@ -13,7 +13,7 @@ while (*(s + i) != '\0')
 {
 i++;
 }
-for (j = i-1 ; j >= 0  ; j--)
+for (j = i - 1 ; j >= 0  ; j--)
 {
 _putchar(*(s + j));
 }

@@ -16,6 +16,7 @@ while (*(s + i) != '\0')
 {
 if (*(s + i) > 9 || *(s + i) < -9)
 {
+i++;
 continue;
 }
 _putchar(*(s + i));

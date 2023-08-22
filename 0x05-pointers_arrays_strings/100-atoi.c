@@ -14,9 +14,9 @@ _putchar('-');
 }
 while (*(s + i) != '\0')
 {
-if (*(s + i) > 57 || *(s + i) < 48)
+if (*(s + i) > 9 || *(s + i) < -9)
 {
-break;
+continue;
 }
 _putchar(*(s + i));
 i++;

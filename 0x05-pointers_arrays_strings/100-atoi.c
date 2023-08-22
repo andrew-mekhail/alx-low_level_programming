@@ -8,7 +8,6 @@
 int _atoi(char *s)
 {
 int i;
-int j = 0;
 if (*(s + 0) < 0)
 {
 _putchar('-');

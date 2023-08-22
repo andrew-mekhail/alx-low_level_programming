@@ -14,10 +14,10 @@ _putchar('-');
 }
 while (*(s + i) != '\0')
 {
-if (*(s + i) > 9 || *(s + i) < -9)
-{
-continue;
-}
+/*if (*(s + i) > 9 || *(s + i) < -9)
+*{
+*continue;
+*}*/
 _putchar(*(s + i));
 i++;
 }

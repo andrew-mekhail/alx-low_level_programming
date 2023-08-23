@@ -8,19 +8,29 @@
 int _atoi(char *s)
 {
 int i = 0;
+char null_flag = 0;
+int sign_of_number = 1;
+unsigned int total = 0;
 if (*(s + 0) < 0)
 {
-_putchar('-');
+sign_of_number *= -1;
 }
 while (*(s + i) != '\0')
 {
-if (*(s + i) > 9 || *(s + i) < -9)
+if (*(s + i) >= '0' && *(s + i) <= '9')
 {
-i++;
-continue;
+total = total * 10 + *(s + i) - '0';
+null_flag = 1;
 }
-_putchar(*(s + i));
+else if (null_flag)
+{
+break;
+}
 i++;
 }
-return (0);
+if (sign_of_number < 0)
+{
+total = total * -1;
+}
+return (total);
 }

@@ -13,7 +13,7 @@ int sign_of_number = 1;
 unsigned int total = 0;
 while (*(s + i) != '\0')
 {
-if (*(s + i) == '0')
+if (*(s + i) == '-')
 {
 sign_of_number *= -1;
 }

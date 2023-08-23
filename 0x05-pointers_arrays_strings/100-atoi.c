@@ -11,12 +11,12 @@ int i = 0;
 char null_flag = 0;
 int sign_of_number = 1;
 unsigned int total = 0;
-if (*(s + 0) < 0)
+while (*(s + i) != '\0')
+{
+if (*(s + i) == '0')
 {
 sign_of_number *= -1;
 }
-while (*(s + i) != '\0')
-{
 if (*(s + i) >= '0' && *(s + i) <= '9')
 {
 total = total * 10 + *(s + i) - '0';

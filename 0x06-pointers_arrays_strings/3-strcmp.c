@@ -27,7 +27,7 @@ else if (i > j)
 {
 return (15);
 }
-else if (i < j)
+else 
 {
 return (-15);
 }

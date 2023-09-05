@@ -7,8 +7,11 @@
  * @argv : pointer to string
  * Return: success
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-printf("%d\n", argc);
+if (argv[0])
+{
+printf("%d\n", argc - 1);
+}
 return (0);
 }
